@@ -1,0 +1,40 @@
+{
+    "name": "chatbot",
+    "version": "1.0.0",
+    "description": "Chatbot powered by chatgpt",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fcallegari7/chatgpt-chatbot.git"
+    },
+    "keywords": [
+        "chatgpt",
+        "node",
+        "chatbot"
+    ],
+    "author": "Fabio Callegari",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fcallegari7/chatgpt-chatbot/issues"
+    },
+    "homepage": "https://github.com/fcallegari7/chatgpt-chatbot#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.3.1",
+        "openai": "^3.3.0",
+        "readline-sync": "^1.4.10"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0",
+        "eslint-config-prettier": "^8.8.0",
+        "prettier": "^3.0.0"
+    }
+}
